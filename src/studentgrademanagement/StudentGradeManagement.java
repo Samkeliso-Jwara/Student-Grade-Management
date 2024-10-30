@@ -18,6 +18,7 @@ public class StudentGradeManagement {
             if (names[i].equalsIgnoreCase(searchName)) {
                 return grades[i];
             }
+            
         }
         return -1;  // If student is not found
     }
